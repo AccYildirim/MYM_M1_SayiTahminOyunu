@@ -12,6 +12,6 @@ fun main() {
     println("Sıcaklık: $sicaklik")
     println("Nem Oranı: $nemOrani")
     println("Hedef Sıcaklık: $hedefSicaklik °C")
-
+    //Yorum
 
 }
