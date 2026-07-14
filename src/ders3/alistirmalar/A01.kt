@@ -12,5 +12,12 @@ fun main() {
 
     val boyMetre = boy / 100
     val vucutKitleIndeksi = kilo / (boyMetre * boyMetre)
-    println("Vücut Kitle İndeksiniz: $vucutKitleIndeksi")
+    val formatliVKE = "%.2f".format(vucutKitleIndeksi)
+
+    println(
+        "İsim: $isim |" +
+                "Boy: $boy |" +
+                "Kilo: $kilo |" +
+                "Vücut Kitle İndeksi: $formatliVKE"
+    )
 }
